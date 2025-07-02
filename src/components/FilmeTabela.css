@@ -1,0 +1,40 @@
+.tabela-container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  animation: fadeIn 1s ease;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  color: #00eaff;
+}
+
+.editar, .excluir {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 0 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.editar {
+  background-color: #ffc107;
+}
+
+.excluir {
+  background-color: #dc3545;
+  color: white;
+}

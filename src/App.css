@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.left-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.right-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  background-image: url('./assets/fundo-animado.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.left-panel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+.left-panel p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+
+
+.titulo {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
